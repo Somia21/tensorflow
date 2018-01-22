@@ -4,13 +4,32 @@
             "outputFile": "C:\\Users\\Somia\\Desktop\\tensorflow-master\\tensorflow\\contrib\\lite\\java\\demo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\b63c1e09df19a247d77f71bc239afb78\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\ca9cdff5a95780acb42e5eff26ddc0bb\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "55",
                         "endColumns": "65",
                         "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\4480e40d6080b361eff86ed61023a43b\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
                     }
                 }
             ]

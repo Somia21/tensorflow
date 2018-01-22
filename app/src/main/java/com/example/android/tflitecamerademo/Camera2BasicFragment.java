@@ -70,7 +70,7 @@ public class Camera2BasicFragment extends Fragment
     implements FragmentCompat.OnRequestPermissionsResultCallback {
 
   /** Tag for the {@link Log}. */
-  private static final String TAG = "TfLiteCameraDemo";
+  private static final String TAG = "Camera2BasicFragment";
 
   private static final String FRAGMENT_DIALOG = "dialog";
 
@@ -280,6 +280,7 @@ public class Camera2BasicFragment extends Fragment
   /** Layout the preview and buttons. */
   @Override
   public View onCreateView(
+          //TODO 1
       LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
     return inflater.inflate(R.layout.fragment_camera2_basic, container, false);
   }
@@ -296,6 +297,7 @@ public class Camera2BasicFragment extends Fragment
   public void onActivityCreated(Bundle savedInstanceState) {
     super.onActivityCreated(savedInstanceState);
     try {
+      //TODO 2
       classifier = new ImageClassifier(getActivity());
     } catch (IOException e) {
       Log.e(TAG, "Failed to initialize an image classifier.");
@@ -312,6 +314,7 @@ public class Camera2BasicFragment extends Fragment
     // available, and "onSurfaceTextureAvailable" will not be called. In that case, we can open
     // a camera and start preview from here (otherwise, we wait until the surface is ready in
     // the SurfaceTextureListener).
+    //TODO 3
     if (textureView.isAvailable()) {
       openCamera(textureView.getWidth(), textureView.getHeight());
     } else {
@@ -351,19 +354,14 @@ public class Camera2BasicFragment extends Fragment
           continue;
         }
 
-        StreamConfigurationMap map =
-            characteristics.get(CameraCharacteristics.SCALER_STREAM_CONFIGURATION_MAP);
+        StreamConfigurationMap map = characteristics.get(CameraCharacteristics.SCALER_STREAM_CONFIGURATION_MAP);
         if (map == null) {
           continue;
         }
 
         // // For still image captures, we use the largest available size.
-        Size largest =
-            Collections.max(
-                Arrays.asList(map.getOutputSizes(ImageFormat.JPEG)), new CompareSizesByArea());
-        imageReader =
-            ImageReader.newInstance(
-                largest.getWidth(), largest.getHeight(), ImageFormat.JPEG, /*maxImages*/ 2);
+        Size largest = Collections.max(Arrays.asList(map.getOutputSizes(ImageFormat.JPEG)), new CompareSizesByArea());
+        imageReader = ImageReader.newInstance(largest.getWidth(), largest.getHeight(), ImageFormat.JPEG, /*maxImages*/ 2);
 
         // Find out if we need to swap dimension to get the preview size relative to sensor
         // coordinate.
@@ -468,13 +466,16 @@ public class Camera2BasicFragment extends Fragment
       checkedPermissions = true;
     }
     setUpCameraOutputs(width, height);
+    //TODO 4
     configureTransform(width, height);
     Activity activity = getActivity();
     CameraManager manager = (CameraManager) activity.getSystemService(Context.CAMERA_SERVICE);
     try {
+
       if (!cameraOpenCloseLock.tryAcquire(2500, TimeUnit.MILLISECONDS)) {
         throw new RuntimeException("Time out waiting to lock camera opening.");
       }
+      //TODO 5
       manager.openCamera(cameraId, stateCallback, backgroundHandler);
     } catch (CameraAccessException e) {
       e.printStackTrace();
@@ -524,6 +525,7 @@ public class Camera2BasicFragment extends Fragment
 
   /** Starts a background thread and its {@link Handler}. */
   private void startBackgroundThread() {
+    Log.d(TAG,"stating background thread");
     backgroundThread = new HandlerThread(HANDLE_THREAD_NAME);
     backgroundThread.start();
     backgroundHandler = new Handler(backgroundThread.getLooper());
@@ -555,10 +557,11 @@ public class Camera2BasicFragment extends Fragment
         public void run() {
           synchronized (lock) {
             if (runClassifier) {
+              Log.d(TAG,"runing callsifire");
               classifyFrame();
             }
           }
-          backgroundHandler.post(periodicClassify);
+          backgroundHandler.postDelayed(periodicClassify,1000);
         }
       };
 

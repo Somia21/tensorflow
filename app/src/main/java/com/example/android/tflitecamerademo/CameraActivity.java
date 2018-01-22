@@ -16,20 +16,45 @@ limitations under the License.
 package com.example.android.tflitecamerademo;
 
 import android.app.Activity;
+import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.graphics.Matrix;
 import android.os.Bundle;
+import android.util.Log;
 
-/** Main {@code Activity} class for the Camera app. */
+import java.io.IOException;
+
+
+/**
+ * Main {@code Activity} class for the Camera app.
+ */
 public class CameraActivity extends Activity {
+    private ImageClassifier classifier;
+    private String TAG = "CameraActivity";
+    private Bitmap resizeAbleBitmap;
 
-  @Override
-  protected void onCreate(Bundle savedInstanceState) {
-    super.onCreate(savedInstanceState);
-    setContentView(R.layout.activity_camera);
-    if (null == savedInstanceState) {
-      getFragmentManager()
-          .beginTransaction()
-          .replace(R.id.container, Camera2BasicFragment.newInstance())
-          .commit();
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_camera);
+        if (null == savedInstanceState) {
+            getFragmentManager()
+                    .beginTransaction()
+                    .replace(R.id.container, Camera2BasicFragment.newInstance())
+                    .commit();
+        }
+
+//        try {
+//            classifier = new ImageClassifier(this);
+//            resizeAbleBitmap=getResizedBitmap(BitmapFactory.decodeResource(this.getResources(), R.drawable.ger), ImageClassifier.DIM_IMG_SIZE_X, ImageClassifier.DIM_IMG_SIZE_Y);
+//            String lable = classifier.classifyFrame(resizeAbleBitmap);
+//            Log.d(TAG,"table="+lable);
+//
+//        } catch (IOException e) {
+//            Log.e(TAG, "Failed to initialize an image classifier.");
+//        }
     }
-  }
+
+
 }

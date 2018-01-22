@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\Somia\\Desktop\\tensorflow-master\\tensorflow\\contrib\\lite\\java\\demo\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-land\\values-land.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\design-25.2.0.aar\\8766446c6da5ff07b25b9a35e6b6c730\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\56ae153629806c2c7a4d029cfda0f229\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\b63c1e09df19a247d77f71bc239afb78\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\4480e40d6080b361eff86ed61023a43b\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

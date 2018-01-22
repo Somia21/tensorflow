@@ -1,41 +1,91 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:18:1-42:12
-INJECTED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:18:1-42:12
-INJECTED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:18:1-42:12
-INJECTED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:18:1-42:12
-MERGED from [com.android.support:design:25.2.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\design-25.2.0.aar\8766446c6da5ff07b25b9a35e6b6c730\AndroidManifest.xml:17:1-27:12
-MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.2.0.aar\b63c1e09df19a247d77f71bc239afb78\AndroidManifest.xml:17:1-27:12
+ADDED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:16:1-51:12
+INJECTED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:16:1-51:12
+INJECTED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:16:1-51:12
+INJECTED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:16:1-51:12
+MERGED from [com.android.support:design:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\56ae153629806c2c7a4d029cfda0f229\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\4480e40d6080b361eff86ed61023a43b\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\6c429c0d6b71637fa62db28a8358dc2b\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:support-v13:25.2.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-v13-25.2.0.aar\c527134944af3ae0857230d7b460dd92\AndroidManifest.xml:17:1-27:12
-MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.2.0.aar\ec2a9d473205b7e3ecf6fda301686676\AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.2.0.aar\b95b962a99fe2bf2e9b7ff2562b72e91\AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:recyclerview-v7:25.2.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.2.0.aar\9089d1862303281175d109c0047b190a\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:25.2.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\transition-25.2.0.aar\dfd3ebfc931083e1b4c938ebef9e9b68\AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-v4-25.2.0.aar\9189df7a028fd80433f1d415244aa78c\AndroidManifest.xml:17:1-27:12
-MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-fragment-25.2.0.aar\3c8642221ad5f6583db89144dde4fcbf\AndroidManifest.xml:17:1-27:12
-MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.2.0.aar\c62f8feeed531e6fc4c20165d972484f\AndroidManifest.xml:17:1-27:12
-MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.2.0.aar\d8ae0751e832418e6d291f5901cf4a25\AndroidManifest.xml:17:1-27:12
-MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.2.0.aar\aa3107efd4a7905dda534ac5c45150dc\AndroidManifest.xml:17:1-27:12
-MERGED from [com.android.support:support-compat:25.2.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-compat-25.2.0.aar\c236203354335ffcaf3e9266abc2458b\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-v13:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-v13-26.1.0.aar\2d20ca16b4c753c189167c1f32a392a8\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\b5761466b0100cb9992187a403dc0287\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\e61f83ee478e351147ec65d77011741e\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\18c108b9ea89c0c08a56799d8608f15a\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\b78fd637d2370745964325e9d34fb69c\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\3a0a5a4c04d83dd196c148a57e46c005\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\46d886ff1db48320997348bbcf07b1a2\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\f718ed036c48e17d497949b650f0677b\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\532b9ad81010e8a3c66f6846049d75df\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\5f265c60d68ea465b939fcb519856c3e\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\ca9cdff5a95780acb42e5eff26ddc0bb\AndroidManifest.xml:17:1-31:12
 MERGED from [org.tensorflow:tensorflow-lite:0.1.1] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\tensorflow-lite-0.1.1.aar\aeb7aaa669c572a2cb50f56cc3816052\AndroidManifest.xml:2:1-6:12
-INJECTED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:18:1-42:12
-INJECTED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:18:1-42:12
-INJECTED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:18:1-42:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\b9e3a11433db5d478f89169ebfb5c19d\AndroidManifest.xml:17:1-30:12
+INJECTED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:16:1-51:12
+INJECTED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:16:1-51:12
+INJECTED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:16:1-51:12
 	package
-		ADDED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:19:5-51
+		ADDED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:17:5-51
 		INJECTED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:18:1-42:12
+		ADDED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:16:1-51:12
 		INJECTED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:18:1-42:12
+		ADDED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:16:1-51:12
 		INJECTED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:18:11-69
+		ADDED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:16:11-69
+uses-sdk
+ADDED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:19:5-44
+INJECTED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:19:5-44
+INJECTED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:19:5-44
+MERGED from [com.android.support:design:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\56ae153629806c2c7a4d029cfda0f229\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\56ae153629806c2c7a4d029cfda0f229\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\4480e40d6080b361eff86ed61023a43b\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\4480e40d6080b361eff86ed61023a43b\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\6c429c0d6b71637fa62db28a8358dc2b\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\6c429c0d6b71637fa62db28a8358dc2b\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v13:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-v13-26.1.0.aar\2d20ca16b4c753c189167c1f32a392a8\AndroidManifest.xml:21:5-23:55
+MERGED from [com.android.support:support-v13:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-v13-26.1.0.aar\2d20ca16b4c753c189167c1f32a392a8\AndroidManifest.xml:21:5-23:55
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\b5761466b0100cb9992187a403dc0287\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\b5761466b0100cb9992187a403dc0287\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\e61f83ee478e351147ec65d77011741e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\e61f83ee478e351147ec65d77011741e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\18c108b9ea89c0c08a56799d8608f15a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\18c108b9ea89c0c08a56799d8608f15a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\b78fd637d2370745964325e9d34fb69c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\b78fd637d2370745964325e9d34fb69c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\3a0a5a4c04d83dd196c148a57e46c005\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\3a0a5a4c04d83dd196c148a57e46c005\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\46d886ff1db48320997348bbcf07b1a2\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\46d886ff1db48320997348bbcf07b1a2\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\f718ed036c48e17d497949b650f0677b\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\f718ed036c48e17d497949b650f0677b\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\532b9ad81010e8a3c66f6846049d75df\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\532b9ad81010e8a3c66f6846049d75df\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\5f265c60d68ea465b939fcb519856c3e\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\5f265c60d68ea465b939fcb519856c3e\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\ca9cdff5a95780acb42e5eff26ddc0bb\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\ca9cdff5a95780acb42e5eff26ddc0bb\AndroidManifest.xml:21:5-23:58
+MERGED from [org.tensorflow:tensorflow-lite:0.1.1] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\tensorflow-lite-0.1.1.aar\aeb7aaa669c572a2cb50f56cc3816052\AndroidManifest.xml:4:4-45
+MERGED from [org.tensorflow:tensorflow-lite:0.1.1] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\tensorflow-lite-0.1.1.aar\aeb7aaa669c572a2cb50f56cc3816052\AndroidManifest.xml:4:4-45
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\b9e3a11433db5d478f89169ebfb5c19d\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\b9e3a11433db5d478f89169ebfb5c19d\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:19:5-44
+INJECTED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:19:5-44
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\56ae153629806c2c7a4d029cfda0f229\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:19:5-44
+		INJECTED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:19:15-41
+		INJECTED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml
+		MERGED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:19:15-41
+		INJECTED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.CAMERA
 ADDED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:21:5-65
 	android:name
@@ -48,104 +98,121 @@ uses-feature#android.hardware.camera.autofocus
 ADDED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:24:5-70
 	android:name
 		ADDED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:24:19-67
-uses-sdk
-ADDED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:26:5-44
-INJECTED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:26:5-44
-INJECTED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:26:5-44
-MERGED from [com.android.support:design:25.2.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\design-25.2.0.aar\8766446c6da5ff07b25b9a35e6b6c730\AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:design:25.2.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\design-25.2.0.aar\8766446c6da5ff07b25b9a35e6b6c730\AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.2.0.aar\b63c1e09df19a247d77f71bc239afb78\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.2.0.aar\b63c1e09df19a247d77f71bc239afb78\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\6c429c0d6b71637fa62db28a8358dc2b\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\6c429c0d6b71637fa62db28a8358dc2b\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:support-v13:25.2.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-v13-25.2.0.aar\c527134944af3ae0857230d7b460dd92\AndroidManifest.xml:21:5-23:55
-MERGED from [com.android.support:support-v13:25.2.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-v13-25.2.0.aar\c527134944af3ae0857230d7b460dd92\AndroidManifest.xml:21:5-23:55
-MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.2.0.aar\ec2a9d473205b7e3ecf6fda301686676\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.2.0.aar\ec2a9d473205b7e3ecf6fda301686676\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.2.0.aar\b95b962a99fe2bf2e9b7ff2562b72e91\AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.2.0.aar\b95b962a99fe2bf2e9b7ff2562b72e91\AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:recyclerview-v7:25.2.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.2.0.aar\9089d1862303281175d109c0047b190a\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:25.2.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.2.0.aar\9089d1862303281175d109c0047b190a\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:transition:25.2.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\transition-25.2.0.aar\dfd3ebfc931083e1b4c938ebef9e9b68\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:25.2.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\transition-25.2.0.aar\dfd3ebfc931083e1b4c938ebef9e9b68\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-v4-25.2.0.aar\9189df7a028fd80433f1d415244aa78c\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-v4-25.2.0.aar\9189df7a028fd80433f1d415244aa78c\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-fragment-25.2.0.aar\3c8642221ad5f6583db89144dde4fcbf\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-fragment-25.2.0.aar\3c8642221ad5f6583db89144dde4fcbf\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.2.0.aar\c62f8feeed531e6fc4c20165d972484f\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.2.0.aar\c62f8feeed531e6fc4c20165d972484f\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.2.0.aar\d8ae0751e832418e6d291f5901cf4a25\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.2.0.aar\d8ae0751e832418e6d291f5901cf4a25\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.2.0.aar\aa3107efd4a7905dda534ac5c45150dc\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.2.0.aar\aa3107efd4a7905dda534ac5c45150dc\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:25.2.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-compat-25.2.0.aar\c236203354335ffcaf3e9266abc2458b\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:25.2.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-compat-25.2.0.aar\c236203354335ffcaf3e9266abc2458b\AndroidManifest.xml:21:5-23:58
-MERGED from [org.tensorflow:tensorflow-lite:0.1.1] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\tensorflow-lite-0.1.1.aar\aeb7aaa669c572a2cb50f56cc3816052\AndroidManifest.xml:4:4-45
-MERGED from [org.tensorflow:tensorflow-lite:0.1.1] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\tensorflow-lite-0.1.1.aar\aeb7aaa669c572a2cb50f56cc3816052\AndroidManifest.xml:4:4-45
-INJECTED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:26:5-44
-INJECTED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:26:5-44
-	tools:overrideLibrary
-		ADDED from [com.android.support:design:25.2.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\design-25.2.0.aar\8766446c6da5ff07b25b9a35e6b6c730\AndroidManifest.xml:23:9-59
-	android:targetSdkVersion
-		INJECTED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:26:5-44
-		INJECTED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml
-	android:minSdkVersion
-		ADDED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:26:15-41
-		INJECTED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml
-		MERGED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:26:15-41
-		INJECTED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:26:5-81
+	android:name
+		ADDED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:26:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:27:5-75
+	android:name
+		ADDED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:27:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:28:5-80
+	android:name
+		ADDED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:28:22-77
 application
-ADDED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:28:5-40:19
-MERGED from [com.android.support:design:25.2.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\design-25.2.0.aar\8766446c6da5ff07b25b9a35e6b6c730\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:design:25.2.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\design-25.2.0.aar\8766446c6da5ff07b25b9a35e6b6c730\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.2.0.aar\b63c1e09df19a247d77f71bc239afb78\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.2.0.aar\b63c1e09df19a247d77f71bc239afb78\AndroidManifest.xml:25:5-20
+ADDED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:30:5-49:19
+MERGED from [com.android.support:design:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\56ae153629806c2c7a4d029cfda0f229\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\56ae153629806c2c7a4d029cfda0f229\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\4480e40d6080b361eff86ed61023a43b\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\4480e40d6080b361eff86ed61023a43b\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\6c429c0d6b71637fa62db28a8358dc2b\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\6c429c0d6b71637fa62db28a8358dc2b\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:support-v13:25.2.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-v13-25.2.0.aar\c527134944af3ae0857230d7b460dd92\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-v13:25.2.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-v13-25.2.0.aar\c527134944af3ae0857230d7b460dd92\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.2.0.aar\ec2a9d473205b7e3ecf6fda301686676\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.2.0.aar\ec2a9d473205b7e3ecf6fda301686676\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.2.0.aar\b95b962a99fe2bf2e9b7ff2562b72e91\AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.2.0.aar\b95b962a99fe2bf2e9b7ff2562b72e91\AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:transition:25.2.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\transition-25.2.0.aar\dfd3ebfc931083e1b4c938ebef9e9b68\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:transition:25.2.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\transition-25.2.0.aar\dfd3ebfc931083e1b4c938ebef9e9b68\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-v4-25.2.0.aar\9189df7a028fd80433f1d415244aa78c\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-v4-25.2.0.aar\9189df7a028fd80433f1d415244aa78c\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-fragment-25.2.0.aar\3c8642221ad5f6583db89144dde4fcbf\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-fragment-25.2.0.aar\3c8642221ad5f6583db89144dde4fcbf\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.2.0.aar\c62f8feeed531e6fc4c20165d972484f\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.2.0.aar\c62f8feeed531e6fc4c20165d972484f\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.2.0.aar\d8ae0751e832418e6d291f5901cf4a25\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.2.0.aar\d8ae0751e832418e6d291f5901cf4a25\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.2.0.aar\aa3107efd4a7905dda534ac5c45150dc\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.2.0.aar\aa3107efd4a7905dda534ac5c45150dc\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-compat:25.2.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-compat-25.2.0.aar\c236203354335ffcaf3e9266abc2458b\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-compat:25.2.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-compat-25.2.0.aar\c236203354335ffcaf3e9266abc2458b\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v13:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-v13-26.1.0.aar\2d20ca16b4c753c189167c1f32a392a8\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v13:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-v13-26.1.0.aar\2d20ca16b4c753c189167c1f32a392a8\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\b5761466b0100cb9992187a403dc0287\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\b5761466b0100cb9992187a403dc0287\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\e61f83ee478e351147ec65d77011741e\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\e61f83ee478e351147ec65d77011741e\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\18c108b9ea89c0c08a56799d8608f15a\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\18c108b9ea89c0c08a56799d8608f15a\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\b78fd637d2370745964325e9d34fb69c\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\b78fd637d2370745964325e9d34fb69c\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\3a0a5a4c04d83dd196c148a57e46c005\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\3a0a5a4c04d83dd196c148a57e46c005\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\46d886ff1db48320997348bbcf07b1a2\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\46d886ff1db48320997348bbcf07b1a2\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\f718ed036c48e17d497949b650f0677b\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\f718ed036c48e17d497949b650f0677b\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\532b9ad81010e8a3c66f6846049d75df\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\532b9ad81010e8a3c66f6846049d75df\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\5f265c60d68ea465b939fcb519856c3e\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\5f265c60d68ea465b939fcb519856c3e\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\ca9cdff5a95780acb42e5eff26ddc0bb\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\ca9cdff5a95780acb42e5eff26ddc0bb\AndroidManifest.xml:25:5-29:19
 MERGED from [org.tensorflow:tensorflow-lite:0.1.1] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\tensorflow-lite-0.1.1.aar\aeb7aaa669c572a2cb50f56cc3816052\AndroidManifest.xml:4:45-5:18
 MERGED from [org.tensorflow:tensorflow-lite:0.1.1] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\tensorflow-lite-0.1.1.aar\aeb7aaa669c572a2cb50f56cc3816052\AndroidManifest.xml:4:45-5:18
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\b9e3a11433db5d478f89169ebfb5c19d\AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\b9e3a11433db5d478f89169ebfb5c19d\AndroidManifest.xml:24:5-28:19
 	android:label
-		ADDED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:29:9-41
+		ADDED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:33:9-41
 	android:icon
-		ADDED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:30:9-45
+		ADDED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:32:9-45
 	android:allowBackup
-		ADDED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:28:18-44
+		ADDED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:31:9-35
 	android:theme
-		ADDED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:31:9-45
+		ADDED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:34:9-45
 activity#com.example.android.tflitecamerademo.CameraActivity
-ADDED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:33:9-39:20
+ADDED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:35:9-43:20
 	android:label
-		ADDED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:34:19-51
+		ADDED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:37:13-45
 	android:name
-		ADDED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:33:19-85
+		ADDED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:36:13-43
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:35:13-38:29
+ADDED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:38:13-42:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:36:17-69
+ADDED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:39:17-69
 	android:name
-		ADDED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:36:25-66
+		ADDED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:39:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:37:17-77
+ADDED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:41:17-77
 	android:name
-		ADDED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:37:27-74
+		ADDED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:41:27-74
+service#com.example.android.tflitecamerademo.TTSService
+ADDED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:45:9-47
+	android:name
+		ADDED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:45:18-44
+activity#com.example.android.tflitecamerademo.readyTTS
+ADDED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:47:9-46
+	android:name
+		ADDED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:47:19-43
+activity#com.example.android.tflitecamerademo.stopTTS
+ADDED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:48:9-54
+	android:name
+		ADDED from C:\Users\Somia\Desktop\tensorflow-master\tensorflow\contrib\lite\java\demo\app\src\main\AndroidManifest.xml:48:19-42
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\56ae153629806c2c7a4d029cfda0f229\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\4480e40d6080b361eff86ed61023a43b\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\4480e40d6080b361eff86ed61023a43b\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v13:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-v13-26.1.0.aar\2d20ca16b4c753c189167c1f32a392a8\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v13:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-v13-26.1.0.aar\2d20ca16b4c753c189167c1f32a392a8\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\b5761466b0100cb9992187a403dc0287\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\b5761466b0100cb9992187a403dc0287\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\e61f83ee478e351147ec65d77011741e\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\e61f83ee478e351147ec65d77011741e\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\18c108b9ea89c0c08a56799d8608f15a\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\18c108b9ea89c0c08a56799d8608f15a\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\b78fd637d2370745964325e9d34fb69c\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\b78fd637d2370745964325e9d34fb69c\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\3a0a5a4c04d83dd196c148a57e46c005\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\3a0a5a4c04d83dd196c148a57e46c005\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\46d886ff1db48320997348bbcf07b1a2\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\46d886ff1db48320997348bbcf07b1a2\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\f718ed036c48e17d497949b650f0677b\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\f718ed036c48e17d497949b650f0677b\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\532b9ad81010e8a3c66f6846049d75df\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\532b9ad81010e8a3c66f6846049d75df\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\5f265c60d68ea465b939fcb519856c3e\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\5f265c60d68ea465b939fcb519856c3e\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\ca9cdff5a95780acb42e5eff26ddc0bb\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\ca9cdff5a95780acb42e5eff26ddc0bb\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:design:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\56ae153629806c2c7a4d029cfda0f229\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:design:26.1.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\56ae153629806c2c7a4d029cfda0f229\AndroidManifest.xml:27:13-51
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\b9e3a11433db5d478f89169ebfb5c19d\AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\b9e3a11433db5d478f89169ebfb5c19d\AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Somia\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\b9e3a11433db5d478f89169ebfb5c19d\AndroidManifest.xml:26:13-58

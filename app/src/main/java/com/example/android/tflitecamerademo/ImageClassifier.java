@@ -16,6 +16,8 @@ limitations under the License.
 package com.example.android.tflitecamerademo;
 
 import android.app.Activity;
+import android.content.Context;
+import android.content.Intent;
 import android.content.res.AssetFileDescriptor;
 import android.graphics.Bitmap;
 import android.os.SystemClock;
@@ -79,6 +81,8 @@ public class ImageClassifier {
   private static final int FILTER_STAGES = 3;
   private static final float FILTER_FACTOR = 0.4f;
 
+  private Context activityContext;
+
   private PriorityQueue<Map.Entry<String, Float>> sortedLabels =
       new PriorityQueue<>(
           RESULTS_TO_SHOW,
@@ -99,6 +103,7 @@ public class ImageClassifier {
     imgData.order(ByteOrder.nativeOrder());
     labelProbArray = new byte[1][labelList.size()];
     filterLabelProbArray = new float[FILTER_STAGES][labelList.size()];
+    activityContext =activity.getApplicationContext();
     Log.d(TAG, "Created a Tensorflow Lite Image Classifier.");
   }
 
@@ -144,6 +149,7 @@ public class ImageClassifier {
     for (int j = 0; j < numLabels; ++j) {
       labelProbArray[0][j] = (byte)filterLabelProbArray[FILTER_STAGES - 1][j];
     }
+
   }
 
   /** Closes tflite to release resources. */
@@ -207,11 +213,23 @@ public class ImageClassifier {
       }
     }
     String textToShow = "";
+    String textToSpeak="";
     final int size = sortedLabels.size();
     for (int i = 0; i < size; ++i) {
       Map.Entry<String, Float> label = sortedLabels.poll();
+      if(i==size-1){
+       textToSpeak(label.getKey(),"en");
+
+      }
       textToShow = String.format("\n%s: %4.2f", label.getKey(), label.getValue()) + textToShow;
     }
+
     return textToShow;
+  }
+  private void textToSpeak(String textToSpeak,String len) {
+    Intent i = new Intent(activityContext, TTSService.class);
+    i.putExtra("toSpeak", textToSpeak);
+    i.putExtra("Language", len);
+    activityContext.startService(i);
   }
 }
