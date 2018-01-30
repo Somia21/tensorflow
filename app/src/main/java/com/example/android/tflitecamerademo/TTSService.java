@@ -1,8 +1,5 @@
 package com.example.android.tflitecamerademo;
 
-/**
- * Created by AmeerHamza on 7/2/2017.
- */
 
 import android.app.Notification;
 import android.app.PendingIntent;

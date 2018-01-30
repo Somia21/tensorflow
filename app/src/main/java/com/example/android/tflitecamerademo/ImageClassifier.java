@@ -42,7 +42,7 @@ import org.tensorflow.lite.Interpreter;
 public class ImageClassifier {
 
   /** Tag for the {@link Log}. */
-  private static final String TAG = "TfLiteCameraDemo";
+  private static final String TAG = "Object Recoginition";
 
   /** Name of the model file stored in Assets. */
   private static final String MODEL_PATH = "mobilenet_quant_v1_224.tflite";
@@ -51,7 +51,7 @@ public class ImageClassifier {
   private static final String LABEL_PATH = "labels.txt";
 
   /** Number of results to show in the UI. */
-  private static final int RESULTS_TO_SHOW = 3;
+  private static final int RESULTS_TO_SHOW = 1;
 
   /** Dimensions of inputs. */
   private static final int DIM_BATCH_SIZE = 1;
@@ -83,6 +83,20 @@ public class ImageClassifier {
 
   private Context activityContext;
 
+  ImageClassifier(Activity activity) throws IOException {
+    tflite = new Interpreter(loadModelFile(activity));
+    labelList = loadLabelList(activity);
+    imgData =
+            ByteBuffer.allocateDirect(
+                    DIM_BATCH_SIZE * DIM_IMG_SIZE_X * DIM_IMG_SIZE_Y * DIM_PIXEL_SIZE);
+
+    imgData.order(ByteOrder.nativeOrder());
+    labelProbArray = new byte[1][labelList.size()];
+    filterLabelProbArray = new float[FILTER_STAGES][labelList.size()];
+    activityContext =activity.getApplicationContext();
+    Log.d(TAG, "Created a Tensorflow Lite Image Classifier.");
+  }
+
   private PriorityQueue<Map.Entry<String, Float>> sortedLabels =
       new PriorityQueue<>(
           RESULTS_TO_SHOW,
@@ -94,18 +108,6 @@ public class ImageClassifier {
           });
 
   /** Initializes an {@code ImageClassifier}. */
-  ImageClassifier(Activity activity) throws IOException {
-    tflite = new Interpreter(loadModelFile(activity));
-    labelList = loadLabelList(activity);
-    imgData =
-        ByteBuffer.allocateDirect(
-            DIM_BATCH_SIZE * DIM_IMG_SIZE_X * DIM_IMG_SIZE_Y * DIM_PIXEL_SIZE);
-    imgData.order(ByteOrder.nativeOrder());
-    labelProbArray = new byte[1][labelList.size()];
-    filterLabelProbArray = new float[FILTER_STAGES][labelList.size()];
-    activityContext =activity.getApplicationContext();
-    Log.d(TAG, "Created a Tensorflow Lite Image Classifier.");
-  }
 
   /** Classifies a frame from the preview stream. */
   String classifyFrame(Bitmap bitmap) {
@@ -217,10 +219,10 @@ public class ImageClassifier {
     final int size = sortedLabels.size();
     for (int i = 0; i < size; ++i) {
       Map.Entry<String, Float> label = sortedLabels.poll();
-      if(i==size-1){
-       textToSpeak(label.getKey(),"en");
 
-      }
+//      if(i==size-1){
+  //     textToSpeak(label.getKey(),"en");
+    //  }
       textToShow = String.format("\n%s: %4.2f", label.getKey(), label.getValue()) + textToShow;
     }
 

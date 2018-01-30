@@ -1,4 +1,4 @@
-#Sat Jan 20 18:26:47 PKT 2018
-base.0=C\:\\Users\\Somia\\Desktop\\tensorflow-master\\tensorflow\\contrib\\lite\\java\\demo\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\45
+#Wed Jan 31 00:27:16 PKT 2018
+base.0=D\:\\tensorflow\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\7
 renamed.0=classes.dex
-file.0=C\:\\Users\\Somia\\Desktop\\tensorflow-master\\tensorflow\\contrib\\lite\\java\\demo\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\45\\classes.dex
+file.0=D\:\\tensorflow\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\7\\classes.dex

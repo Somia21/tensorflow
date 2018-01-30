@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Somia\\Desktop\\tensorflow-master\\tensorflow\\contrib\\lite\\java\\demo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+            "outputFile": "D:\\tensorflow\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Somia\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\ca9cdff5a95780acb42e5eff26ddc0bb\\res\\values-v16\\values-v16.xml",

@@ -69,7 +69,6 @@ import java.util.concurrent.TimeUnit;
 public class Camera2BasicFragment extends Fragment
     implements FragmentCompat.OnRequestPermissionsResultCallback {
 
-  /** Tag for the {@link Log}. */
   private static final String TAG = "Camera2BasicFragment";
 
   private static final String FRAGMENT_DIALOG = "dialog";
