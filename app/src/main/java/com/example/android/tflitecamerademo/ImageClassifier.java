@@ -220,9 +220,9 @@ public class ImageClassifier {
     for (int i = 0; i < size; ++i) {
       Map.Entry<String, Float> label = sortedLabels.poll();
 
-//      if(i==size-1){
-  //     textToSpeak(label.getKey(),"en");
-    //  }
+     if(i==size-1){
+     textToSpeak(label.getKey(),"en");
+  }
       textToShow = String.format("\n%s: %4.2f", label.getKey(), label.getValue()) + textToShow;
     }
 

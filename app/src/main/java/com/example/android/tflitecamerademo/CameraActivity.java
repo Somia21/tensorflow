@@ -34,19 +34,34 @@ public class CameraActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_camera);
-
+/*
         if (null == savedInstanceState) {
             getFragmentManager().beginTransaction().replace(R.id.container, Camera2BasicFragment.newInstance()).commit();
+        }*/
+
+        try {
+            classifier = new ImageClassifier(this);
+            resizeAbleBitmap=getResizedBitmap(BitmapFactory.decodeResource(this.getResources(), R.drawable.ger), ImageClassifier.DIM_IMG_SIZE_X, ImageClassifier.DIM_IMG_SIZE_Y);
+            String lable = classifier.classifyFrame(resizeAbleBitmap);
+            Log.d(TAG,"table="+lable);
+
+        } catch (IOException e) {
+            Log.e(TAG, "Failed to initialize an image classifier.");
         }
 
-//        try {
-//            classifier = new ImageClassifier(this);
-//            resizeAbleBitmap=getResizedBitmap(BitmapFactory.decodeResource(this.getResources(), R.drawable.ger), ImageClassifier.DIM_IMG_SIZE_X, ImageClassifier.DIM_IMG_SIZE_Y);
-//            String lable = classifier.classifyFrame(resizeAbleBitmap);
-//            Log.d(TAG,"table="+lable);
-//
-//        } catch (IOException e) {
-//            Log.e(TAG, "Failed to initialize an image classifier.");
-//        }
+    }
+    public static Bitmap getResizedBitmap(Bitmap image, int newHeight, int newWidth) {
+        int width = image.getWidth();
+        int height = image.getHeight();
+        float scaleWidth = ((float) newWidth) / width;
+        float scaleHeight = ((float) newHeight) / height;
+        // create a matrix for the manipulation
+        Matrix matrix = new Matrix();
+        // resize the bit map
+        matrix.postScale(scaleWidth, scaleHeight);
+        // recreate the new Bitmap
+        Bitmap resizedBitmap = Bitmap.createBitmap(image, 0, 0, width, height,
+                matrix, false);
+        return resizedBitmap;
     }
 }

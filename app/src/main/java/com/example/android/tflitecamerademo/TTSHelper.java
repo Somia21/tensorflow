@@ -1,8 +1,6 @@
 package com.example.android.tflitecamerademo;
 
-/**
- * Created by AmeerHamza on 7/2/2017.
- */
+
 
 import android.content.Context;
 import android.content.Intent;

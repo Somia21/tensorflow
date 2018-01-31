@@ -556,11 +556,11 @@ public class Camera2BasicFragment extends Fragment
         public void run() {
           synchronized (lock) {
             if (runClassifier) {
-              Log.d(TAG,"runing callsifire");
+
               classifyFrame();
             }
           }
-          backgroundHandler.postDelayed(periodicClassify,1000);
+          backgroundHandler.postDelayed(periodicClassify,1000);//this line of responcibal for delay
         }
       };
 

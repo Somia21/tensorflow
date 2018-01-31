@@ -1,4 +1,4 @@
-#Mon Jan 29 13:50:36 PKT 2018
-base.0=D\:\\tensorflow\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\3
+#Wed Jan 31 01:29:22 PKT 2018
+base.0=D\:\\tensorflow\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\2
 renamed.0=classes.dex
-file.0=D\:\\tensorflow\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\3\\classes.dex
+file.0=D\:\\tensorflow\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\2\\classes.dex
